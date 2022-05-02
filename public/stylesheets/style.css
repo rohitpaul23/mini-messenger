@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.content{
+  background-color: #a3a3a3;
+  height: max(100vh, 100%);
+}
+
+.header{
+  font-size: 2em;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  color: #fff;
+}
+
+.but{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body{
+  display: flex;
+  justify-content: center;
+}
+
+.body ul{
+  list-style: none;
+}
+
+.body form{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"]{
+  font-size: 1.5em;
+  width: 75%;
+  background-color: lavender;
+}
+
+textarea{
+  font-size: 1.5em;
+  width: 75%;
+  background-color: lavender;
+  height: 200px;
+}
+
+button{
+  width: 7em;
+  background-color: #3b740266;
+  font-size: 1.5em;
+  color: white;
+  padding: 5px;
+}
+
+.items{
+  margin: 5px;
+  border: black solid 1px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.user{
+  font-size: 2em;
+  color: white;
+}
+
+.date{
+  color: white;
+}
+
+.text{
+  font-size: 1.5em;
+  background-color: #d7d7d7;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 5px;
+}

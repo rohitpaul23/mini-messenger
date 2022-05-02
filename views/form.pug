@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  .content
+    .header= title
+    .body
+      form(method="POST", action="/new") 
+        input(type="text", name="name" placeholder="Your Name" )
+        textarea(name="message", placeholder="Enter Message..", cols="30", rows="10")
+        button(type="submit") Submit

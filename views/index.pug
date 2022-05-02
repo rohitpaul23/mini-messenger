@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  .content
+    .header= title
+    .but
+      form(method="POST", action="/") 
+        button(type="submit") Add +
+    .body
+      ul 
+        each element in messages
+          li
+            .items
+              .user #{element.user}
+              .date #{element.added}<br>
+              .text #{element.text}
